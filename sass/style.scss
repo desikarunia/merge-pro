@@ -1,0 +1,74 @@
+/*=============================================================================================	
+    Company    : PT Web Architect Technology - webarq.com
+    Document   : Stylesheet
+    Author     : Your Name
+==============================================================================================*/
+@import "sass-lib";
+
+body {  
+    color: #333;
+    font-size: 12px;
+    font-family: "Lato"; 
+    position: relative;
+    overflow-x: hidden;
+}
+figure{
+    margin: 0; padding: 0;
+    img{vertical-align: middle;}
+}
+img{ border:0; max-width:100%; height:auto; }
+p {
+    margin: 1px 0 15px;
+    line-height: 20px;
+}
+input, textarea, select {
+    font-size: 12px;
+    border: none;
+    border: 1px solid #D8D8D8;
+    padding: 10px;
+    margin: 0;
+    color: #666;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+input[type=checkbox], input[type=radio] {
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button  {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    opacity: 0;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+h1 { font-size: 32px; }
+h2 { font-size: 28px; }
+h3 { font-size: 24px; }
+h4 { font-size: 20px; } 
+h5 { font-size: 16px; } 
+h6 { font-size: 14px; }
+/* structure 
+----------------------------------------------------------------------------------------------*/
+section { position: relative; }
+.wrapper {width: 1170px;margin: 0 auto;}
+
+.btn-blue{}
+
+
+/* header
+----------------------------------------------------------------------------------------------*/
+
+/* middle
+----------------------------------------------------------------------------------------------*/
+
+/* footer
+----------------------------------------------------------------------------------------------*/
